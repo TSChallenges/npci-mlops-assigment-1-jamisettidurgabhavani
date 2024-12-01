@@ -9,7 +9,8 @@ def create_directory(dir_name):
     return
 
 def change_directory(dir_name):
-    # ...
+    os.chdir(dir_name)
+    print("Changed Directory path");
     return
 
 
