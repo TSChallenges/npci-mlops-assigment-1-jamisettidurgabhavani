@@ -27,7 +27,8 @@ def list_dir():
 
 
 def display_pwd():
-    # ...
+    print("present working directory");
+    print(os.getcwd());
     return
 
 
