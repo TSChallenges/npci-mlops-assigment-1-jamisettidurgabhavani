@@ -21,6 +21,7 @@ def sed(old_pattern, new_pattern, file_name):
     return
 
 def awk(n, file_name):
+    n = int(n)
     with open(file_name, 'r') as fp:
         for line in fp:
             # Split the line into words (by default, split on whitespace)
