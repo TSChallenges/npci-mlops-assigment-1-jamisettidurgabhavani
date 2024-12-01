@@ -60,7 +60,7 @@ def read_file(file_name):
 
 
 def delete_file(file_name):
-    #for testing this function have created delete.txt file and deleted via functions only
+    #for testing purpose to this function have created delete.txt file and deleted via functions only
     os.remove(file_name)
     return
 
