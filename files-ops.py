@@ -15,7 +15,8 @@ def change_directory(dir_name):
 
 
 def delete_directory(dir_name):
-    # ...
+    os.rmdir(dir_name)
+    print("Succesfully removed directory");
     return
 
 
