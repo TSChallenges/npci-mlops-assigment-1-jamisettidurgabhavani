@@ -20,7 +20,12 @@ def sed(old_pattern, new_pattern, file_name):
     return
 
 def awk(n, file_name):
-    # ...
+    with open(file_name, 'r') as fp:
+        for line in fp:
+            # Split the line into words (by default, split on whitespace)
+            words = line.split()
+            if len(words) >= n:
+                print(words[n-1])  # Print the nth column (1-based index)
     return 
 
 def main():
