@@ -6,7 +6,7 @@ def grep(pattern, file_name):
             if re.search(pattern, line):
                 print(line.strip())
     return 
-#grep fucnction testing was completed
+#grep function testing was completed
 
 
 def sed(old_pattern, new_pattern, file_name):
