@@ -21,7 +21,8 @@ def delete_directory(dir_name):
 
 
 def list_dir():
-    # ...
+    print("list of present directories");
+    print(os.listdir());
     return
 
 
